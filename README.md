@@ -1,6 +1,6 @@
 # EliPress WordPress Starter Theme
 
-EliPress is a modern and lightweight WordPress starter theme built with Tailwind CSS, Alpine.js, GSAP, and Swiper.js. It provides a solid foundation for building custom WordPress websites with a focus on performance and developer experience. The theme is designed to be highly customizable, allowing you to easily enable or disable specific JavaScript libraries and add new ones as needed.
+A modern and lightweight WordPress starter theme built with Tailwind CSS, Alpine.js, GSAP, and Swiper.js. It provides a solid foundation for building custom WordPress websites with a focus on performance and developer experience. The theme is designed to be highly customizable, allowing you to easily enable or disable specific JavaScript libraries and add new ones as needed.
 
 ## Features
 
