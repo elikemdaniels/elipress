@@ -1,0 +1,6 @@
+@import "../node_modules/swiper/swiper-bundle.min.css";
+@import "./css/frontend.css";
+@import "./css/backend.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

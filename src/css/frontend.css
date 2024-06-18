@@ -1,0 +1,33 @@
+header,
+section,
+footer {
+  @apply px-[5%];
+}
+
+.content-wrapper {
+  @apply mx-auto max-w-screen-xl;
+}
+
+::selection {
+  @apply bg-purple-200;
+}
+
+.header-primary-menu {
+  @apply flex gap-4;
+}
+
+.header-primary-menu li a {
+  @apply block px-5 py-3;
+}
+
+.header-primary-menu li {
+  @apply border-b-4 border-b-transparent;
+}
+
+.header-primary-menu li.current-menu-item {
+  @apply border-b-4 border-b-yellow-300 bg-indigo-800;
+}
+
+.header-primary-container {
+  @apply hidden md:block;
+}

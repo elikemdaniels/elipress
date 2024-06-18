@@ -1,0 +1,39 @@
+{
+  "name": "elipress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel sync tailwindwatch jswatchall jswatch",
+    "build": "npm-run-all --parallel tailwindbuild jsbuildall jsbuild",
+    "sync": "browser-sync start -p 'http://localhost:10043/' --files '**/*.php' 'build/*.js' 'build/*.css'",
+    "tailwindwatch": "npx tailwindcss -i ./src/index.css -o ./build/index.css --watch",
+    "tailwindbuild": "npx tailwindcss -i ./src/index.css -o ./build/index.css --minify",
+    "jswatchall": "npm-run-all --parallel jswatchalpine jswatchgsap jswatchswiper",
+    "jsbuildall": "npm-run-all --parallel jsbuildalpine jsbuildgsap jsbuildswiper",
+    "jswatchalpine": "esbuild src/js/alpine.js --bundle --sourcemap --outfile=build/js/alpine.js --watch",
+    "jsbuildalpine": "esbuild src/js/alpine.js --bundle --minify --sourcemap --outfile=build/js/alpine.js",
+    "jswatchgsap": "esbuild src/js/gsap.js --bundle --sourcemap --outfile=build/js/gsap.js --watch",
+    "jsbuildgsap": "esbuild src/js/gsap.js --bundle --minify --sourcemap --outfile=build/js/gsap.js",
+    "jswatchswiper": "esbuild src/js/swiper.js --bundle --sourcemap --outfile=build/js/swiper.js --watch",
+    "jsbuildswiper": "esbuild src/js/swiper.js --bundle --minify --sourcemap --outfile=build/js/swiper.js",
+    "jswatch": "esbuild src/index.js --bundle --sourcemap --outfile=build/index.js --watch",
+    "jsbuild": "esbuild src/index.js --bundle --minify --sourcemap --outfile=build/index.js",
+    "zip": "zip -r elipress.zip . -x 'node_modules/*' 'tailwind.config.js' 'package.json' 'package-lock.json' '.git/*' '.vscode/*' '*.log' '*.md'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
+    "browser-sync": "^3.0.2",
+    "esbuild": "^0.17.5",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.0",
+    "gsap": "^3.12.5",
+    "swiper": "^11.1.3"
+  }
+}

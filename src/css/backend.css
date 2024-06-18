@@ -1,0 +1,7 @@
+h1.wp-block-post-title {
+	@apply text-5xl font-bold leading-tight;
+}
+
+.wp-block-post-content {
+	@apply prose prose-lg mx-auto max-w-full;
+}
