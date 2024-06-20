@@ -1,6 +1,6 @@
 <?php
 
-function elipress_support()
+function watu_support()
 {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
@@ -8,4 +8,4 @@ function elipress_support()
     register_nav_menu('header-primary-menu', 'Header Primary Menu');
     register_nav_menu('header-secondary-menu', 'Header Secondary Menu');
 }
-add_action('after_setup_theme', 'elipress_support');
+add_action('after_setup_theme', 'watu_support');

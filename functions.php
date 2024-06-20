@@ -13,8 +13,8 @@ require_once get_template_directory() . '/inc/theme-support.php';
 require_once get_template_directory() . '/inc/jquery-support.php';
 
 // Register blocks
-function elipress_register_acf_blocks()
+function watu_register_acf_blocks()
 {
   register_block_type(__DIR__ . '/blocks/testimonial');
 }
-add_action('init', 'elipress_register_acf_blocks');
+add_action('init', 'watu_register_acf_blocks');

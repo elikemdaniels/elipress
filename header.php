@@ -10,6 +10,6 @@
 <body <?php body_class('bg-indigo-100 text-slate-900 antialiased'); ?>>
   <?php wp_body_open(); ?>
   <div class="site-wrapper flex flex-col min-h-screen">
-    <a href="#content" class="sr-only"><?php esc_html_e('Skip to content', 'elipress'); ?></a>
+    <a href="#content" class="sr-only"><?php esc_html_e('Skip to content', 'watu'); ?></a>
     <?php get_template_part('template-parts/part-header'); ?>
     <main id="content" class="flex-grow flex items-center justify-center">

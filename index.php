@@ -15,7 +15,7 @@
         </article>
       <?php endwhile; ?>
     <?php else : ?>
-      <p><?php esc_html_e('Sorry, no posts matched your criteria.', 'elipress'); ?></p>
+      <p><?php esc_html_e('Sorry, no posts matched your criteria.', 'watu'); ?></p>
     </div>
   </section>
 <?php endif; ?>

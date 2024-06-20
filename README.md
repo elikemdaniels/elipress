@@ -1,4 +1,4 @@
-# EliPress WordPress Starter Theme
+# watu WordPress Starter Theme
 
 A modern and lightweight WordPress starter theme built with Tailwind CSS, Alpine.js, GSAP, and Swiper.js. It provides a solid foundation for building custom WordPress websites with a focus on performance and developer experience. The theme is designed to be highly customizable, allowing you to easily enable or disable specific JavaScript libraries and add new ones as needed.
 
@@ -19,10 +19,10 @@ A modern and lightweight WordPress starter theme built with Tailwind CSS, Alpine
 
 ## Getting Started
 
-To get started with the EliPress starter theme, follow these steps:
+To get started with the watu starter theme, follow these steps:
 
 1. Clone the repository or download the ZIP file.
-2. Navigate to the theme directory: `cd /path/to/elipress`
+2. Navigate to the theme directory: `cd /path/to/watu`
 3. Install the required dependencies: `npm install`
 
 ## Development
@@ -36,7 +36,7 @@ The theme enqueues scripts and styles for both the frontend and the editor, ensu
 
 ## Building Blocks
 
-The EliPress starter theme includes the following custom Gutenberg blocks (built with ACF Pro):
+The watu starter theme includes the following custom Gutenberg blocks (built with ACF Pro):
 
 - **Testimonial Block**: A block for displaying testimonials with author information.
 
@@ -53,7 +53,7 @@ You can customize the theme by modifying the following files:
 
 ## Deployment
 
-To deploy the EliPress starter theme to a production environment, follow these steps:
+To deploy the watu starter theme to a production environment, follow these steps:
 
 1. Run `npm run build` to generate the minified CSS and JavaScript files.
 2. Run `npm run zip` to zip the theme directory, excluding the `node_modules` folder and other development files.
@@ -66,4 +66,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-The EliPress WordPress starter theme is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT).
+The watu WordPress starter theme is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT).
