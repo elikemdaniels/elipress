@@ -1,5 +1,5 @@
 {
-  "name": "watu",
+  "name": "elipress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "jsbuildswiper": "esbuild src/js/swiper.js --bundle --minify --sourcemap --outfile=build/js/swiper.js",
     "jswatch": "esbuild src/index.js --bundle --sourcemap --outfile=build/index.js --watch",
     "jsbuild": "esbuild src/index.js --bundle --minify --sourcemap --outfile=build/index.js",
-    "zip": "zip -r watu.zip . -x 'node_modules/*' 'tailwind.config.js' 'package.json' 'package-lock.json' '.git/*' '.vscode/*' '*.log' '*.md'"
+    "zip": "zip -r elipress.zip . -x 'node_modules/*' 'tailwind.config.js' 'package.json' 'package-lock.json' '.git/*' '.vscode/*' '*.log' '*.md'"
   },
   "keywords": [],
   "author": "",
