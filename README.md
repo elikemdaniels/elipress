@@ -29,6 +29,7 @@ To get started with the elipress starter theme, follow these steps:
 
 During development, you can use the following commands:
 
+- Update the URL of the development server on line 9 in the package.json file.
 - `npm run start`: Starts the development server, watches for file changes, and automatically reloads the browser.
 - `npm run build`: Builds the production-ready CSS and JavaScript files.
 
